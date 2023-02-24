@@ -1,0 +1,7 @@
+- id: ruff-conda
+  name: ruff-conda
+  description: "Run 'ruff' for extremely fast Python linting"
+  entry: ruff
+  language: conda
+  require_serial: false
+  types: [python]

@@ -1,0 +1,5 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ruff=0.0.247
