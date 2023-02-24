@@ -1,7 +1,7 @@
 - id: typos-conda
   name: typos-conda
   description: Source code spell checker, binary install
-  language: python
+  language: conda
   entry: typos
   args: []
   types: [text]
