@@ -1,19 +1,19 @@
-ruff(-conda) mirror
+typos(-conda) mirror
 ====================
 
-Mirror of ruff for pre-commit with conda as a language.
+Mirror of typos for pre-commit with conda as a language.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
-For ruff: see https://github.com/charliermarsh/ruff
+For typos: see https://github.com/crate-ci/typos
 
-### Using ruff with pre-commit and conda:
+### Using typos with pre-commit and conda:
 
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
- - repo: https://github.com/Quantco/pre-commit-mirrors-ruff
+ - repo: https://github.com/Quantco/pre-commit-mirrors-typos
    rev: ''  # Use the sha / tag you want to point at
    hooks:
-     - id: ruff-conda
+     - id: typos-conda
 ```
 

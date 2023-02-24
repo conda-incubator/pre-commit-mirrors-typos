@@ -1,7 +1,8 @@
-- id: ruff-conda
-  name: ruff-conda
-  description: "Run 'ruff' for extremely fast Python linting"
-  entry: ruff
-  language: conda
-  require_serial: false
-  types: [python]
+- id: typos-conda
+  name: typos-conda
+  description: Source code spell checker, binary install
+  language: python
+  entry: typos
+  args: []
+  types: [text]
+  stages: [commit, merge-commit, push, manual]
