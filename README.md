@@ -17,3 +17,21 @@ Add this to your `.pre-commit-config.yaml`
      - id: typos-conda
 ```
 
+### Some useful exceptions
+For the exact documentation on how to ignore certain typos, see: https://github.com/crate-ci/typos#false-positives
+
+In our projects, some shorter German works are too similar to English words and are picked up. Here is a list of commonly encountered typos:
+
+```toml
+[default.extend-words]
+als = "als"
+alle = "alle"
+autor = "autor"
+beginn = "beginn"
+ende = "ende"
+iif = "iif"
+ist = "ist"
+feld = "feld"
+tage = "tage"
+titel = "titel"
+```
