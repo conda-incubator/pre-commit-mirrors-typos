@@ -2,4 +2,4 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - typos=1.13.12
+  - typos=1.13.16

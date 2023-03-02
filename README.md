@@ -17,7 +17,7 @@ Add this to your `.pre-commit-config.yaml`
      - id: typos-conda
 ```
 
-### Some useful exceptions
+### Some Useful Exceptions
 For the exact documentation on how to ignore certain typos, see: https://github.com/crate-ci/typos#false-positives
 
 In our projects, some shorter German works are too similar to English words and are picked up. Here is a list of commonly encountered typos:
@@ -35,3 +35,6 @@ feld = "feld"
 tage = "tage"
 titel = "titel"
 ```
+
+### Flagging Unrecognized Typos
+If you notice that there is a typo in your project that is not being caught by `typos`, simply open an issue in this repository.
