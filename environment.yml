@@ -1,5 +1,5 @@
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - typos=1.16.19
