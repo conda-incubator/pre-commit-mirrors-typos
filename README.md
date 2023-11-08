@@ -18,12 +18,14 @@ Add this to your `.pre-commit-config.yaml`
 ```
 
 ### Some Useful Exceptions
-For the exact documentation on how to ignore certain typos, see: https://github.com/crate-ci/typos#false-positives
+For the exact documentation on how to ignore certain typos, see: https://github.com/crate-ci/typos#false-positives . This config
+can be included in the `pyproject.toml` of a repository as shown below.
 
 In our projects, some shorter German works are too similar to English words and are picked up. Here is a list of commonly encountered typos:
 
 ```toml
-[default.extend-words]
+[tool.typos]
+[tool.typos.default.extend-words]
 als = "als"
 alle = "alle"
 autor = "autor"
@@ -31,7 +33,8 @@ beginn = "beginn"
 ende = "ende"
 iif = "iif"
 ist = "ist"
-feld = "feld"
+feld = "field"
+sie = "sie"
 tage = "tage"
 titel = "titel"
 ```
