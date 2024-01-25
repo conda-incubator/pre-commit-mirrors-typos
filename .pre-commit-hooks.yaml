@@ -3,6 +3,6 @@
   description: Source code spell checker, binary install
   language: conda
   entry: typos
-  args: []
+  args: [--force-exclude]
   types: [text]
   stages: [commit, merge-commit, push, manual]
