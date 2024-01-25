@@ -2,4 +2,4 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - typos=1.17.1
+  - typos=1.17.2
