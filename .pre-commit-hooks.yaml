@@ -1,8 +1,8 @@
 - id: typos-conda
   name: typos-conda
   description: Source code spell checker, binary install
-  language: conda
   entry: typos
+  language: conda
   args: [--force-exclude]
   types: [text]
   stages: [commit, merge-commit, push, manual]

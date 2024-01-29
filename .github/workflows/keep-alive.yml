@@ -1,8 +1,7 @@
 name: Keep
 on:
-  # pull_request:
   schedule:
-    - cron: "0 6 * * SUN"  # Once weekly on Sunday @ 0600 UTC 
+    - cron: 0 6 * * SUN
 
 jobs:
   keep-alive:
@@ -12,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/keepalive-workflow@60b13c92aeda855e493b83aaf482c25da7e0043b
         with:
-          commit_message: "Ah ah ah, stayin' alive"
+          commit_message: Ah ah ah, stayin' alive
           committer_username: ForrestQuant
-          committer_email: "forrestquant@users.noreply.github.com"
-          time_elapsed: 50  # days
+          committer_email: forrestquant@users.noreply.github.com
+          time_elapsed: 50 # days
