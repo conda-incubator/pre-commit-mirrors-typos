@@ -4,7 +4,7 @@ Mirror of typos for pre-commit with conda as a language.
 
 For pre-commit: see [here](https://github.com/pre-commit/pre-commit)
 
-For ansible-lint: see [here](https://github.com/crate-ci/typos)
+For typos: see [here](https://github.com/crate-ci/typos)
 
 ## Using typos with pre-commit and conda:
 
