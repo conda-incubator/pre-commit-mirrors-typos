@@ -1,6 +1,6 @@
 - id: typos-conda
   name: typos-conda
-  description: Source code spell checker, binary install
+  description: 'Source code spell checker, binary install'
   entry: typos
   language: conda
   args: [--force-exclude]
